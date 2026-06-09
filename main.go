@@ -18,6 +18,6 @@ func main() {
 
 	//fmt.Println(goreload.CapitalizeFirstChar("hello, world!"))
 
-	fmt.Println(goreload.FixPuntuation("hello ,,, World ! ! ! Terna ?"))
+	fmt.Println(goreload.FixQuotes("' Hello World ' and ' Hello '"))
 
 }
