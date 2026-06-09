@@ -18,6 +18,6 @@ func main() {
 
 	//fmt.Println(goreload.CapitalizeFirstChar("hello, world!"))
 
-	fmt.Println(goreload.FixArticles([]string{"hello,", "world!", "a", "apple", "Terna"}))
+	fmt.Println(goreload.FixPuntuation("hello ,,, World ! ! ! Terna ?"))
 
 }
