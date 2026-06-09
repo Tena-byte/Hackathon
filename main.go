@@ -16,8 +16,8 @@ func main() {
 
 	//fmt.Println(splitn.Separate("Hello, world! How are you?"))
 
-	fmt.Println(goreload.CapitalizeFirstChar("hello, world!"))
+	//fmt.Println(goreload.CapitalizeFirstChar("hello, world!"))
 
-	fmt.Println(goreload.CapitalizeN([]string{"hello,", "world!", "Terna"}, 1))
+	fmt.Println(goreload.FixArticles([]string{"hello,", "world!", "a", "apple", "Terna"}))
 
 }
