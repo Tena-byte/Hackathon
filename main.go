@@ -2,20 +2,22 @@ package main
 
 import (
 	"fmt"
-	"hackathon/filecheck"
-	"hackathon/splitn"
-	"os"
+	goreload "hackathon/go-reload"
 )
 
 func main() {
 
-	data := filecheck.ReadFile()
-	result := filecheck.WriteOut(data)
+	// data := filecheck.ReadFile()
+	// result := filecheck.WriteOut(data)
 
-	output, _ := os.ReadFile(result)
+	// output, _ := os.ReadFile(result)
 
-	fmt.Println(string(output))
+	// fmt.Println(string(output))
 
-	fmt.Println(splitn.Separate("Hello, world! How are you?"))
+	//fmt.Println(splitn.Separate("Hello, world! How are you?"))
+
+	fmt.Println(goreload.CapitalizeFirstChar("hello, world!"))
+
+	fmt.Println(goreload.CapitalizeN([]string{"hello,", "world!", "Terna"}, 1))
 
 }

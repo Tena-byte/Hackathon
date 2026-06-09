@@ -11,7 +11,6 @@ func Separate(text string) []string {
 	result := []string{}
 
 	for _, r := range words {
-
 		for _, ch := range r {
 
 			if unicode.IsPunct(ch) {
